@@ -6,7 +6,7 @@ import casal3 from "../assets/casal-3.jpg.asset.json";
 import casal4 from "../assets/casal-4.jpg.asset.json";
 
 const WHATSAPP = "258849889889";
-const WEDDING_DATE = new Date("2027-07-12T10:00:00");
+const WEDDING_DATE = new Date("2026-12-12T10:00:00");
 const GREETINGS_KEY = "kelvin-shelsea-felicitacoes";
 
 const GALLERY = [
@@ -163,7 +163,7 @@ function IntroOverlay({
           Shelsea
         </h1>
         <p className="mt-5 text-lg font-light uppercase tracking-[0.3em] text-white/90 sm:text-xl">
-          12 · 07 · 2027
+          12 · 12 · 2026
         </p>
         <button
           type="button"
@@ -223,17 +223,17 @@ function MusicButton({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kelvin & Shelsea — Casamento 12.07.2027" },
+      { title: "Kelvin & Shelsea — Casamento 12.12.2026" },
       {
         name: "description",
         content:
-          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de julho de 2027, em Maputo. Programa do dia e confirmação de presença.",
+          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de dezembro de 2026, em Maputo. Programa do dia e confirmação de presença.",
       },
-      { property: "og:title", content: "Kelvin & Shelsea — Casamento 12.07.2027" },
+      { property: "og:title", content: "Kelvin & Shelsea — Casamento 12.12.2027" },
       {
         property: "og:description",
         content:
-          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de julho de 2027, em Maputo.",
+          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de dezembro de 2026, em Maputo.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -372,7 +372,7 @@ function Index() {
           <Reveal delay={400}>
           <div className="mt-10 h-px w-24 bg-white/40" />
           <p className="mt-8 text-lg font-light uppercase tracking-[0.3em] text-white/90 sm:text-xl">
-            12 · 07 · 2026
+            12 · 12 · 2026
           </p>
           <p className="mt-3 text-sm uppercase tracking-[0.3em] text-white/70">
             Maputo · Moçambique
@@ -488,7 +488,7 @@ function Index() {
             Programa do dia
           </h2>
           <div className="mt-10 grid gap-8 sm:grid-cols-3">
-            <DetailCard label="Data" value="12 · 07 · 2026" sub="Domingo" />
+            <DetailCard label="Data" value="12 · 12 · 2026" sub="Domingo" />
             <DetailCard label="Início" value="10:00" sub="Cerimónia Religiosa" />
             <DetailCard label="Cidade" value="Maputo" sub="Moçambique" />
           </div>
@@ -579,7 +579,7 @@ function Index() {
             RSVP
           </h2>
           <p className="mt-5 text-muted-foreground">
-            Confirme até <strong className="text-foreground">05 de julho de 2026</strong> por
+            Confirme até <strong className="text-foreground">05 de dezembro de 2026</strong> por
             WhatsApp.
           </p>
         </div>
@@ -749,7 +749,7 @@ function Index() {
             Kelvin &amp; Shelsea
           </p>
           <p className="mt-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            12 · 07 · 2026 — Maputo
+            12 · 12 · 2026 — Maputo
           </p>
           <p className="mt-6 text-xs text-muted-foreground">Contamos com a sua presença.</p>
 
