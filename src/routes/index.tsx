@@ -6,13 +6,13 @@ import casal3 from "../assets/casal-3.jpg.asset.json";
 import casal4 from "../assets/casal-4.jpg.asset.json";
 
 const WHATSAPP = "258849889889";
-const WEDDING_DATE = new Date("2026-12-12T10:00:00");
+const WEDDING_DATE = new Date("2025-09-12T10:00:00");
 const GREETINGS_KEY = "kevin-shelsea-felicitacoes";
 
 const GALLERY = [
-  { url: casal3.url, alt: "Kelvin ergue Shelsea num jardim, em ensaio pré-casamento" },
-  { url: casal4.url, alt: "Kelvin e Shelsea de mãos dadas entre a vegetação" },
-  { url: casal2.url, alt: "Kelvin e Shelsea em ensaio fotográfico" },
+  { url: casal3.url, alt: "Kevin ergue Shelsea num jardim, em ensaio pré-casamento" },
+  { url: casal4.url, alt: "Kevin e Shelsea de mãos dadas entre a vegetação" },
+  { url: casal2.url, alt: "Kevin e Shelsea em ensaio fotográfico" },
 ];
 
 const PROGRAM = [
@@ -153,10 +153,10 @@ function IntroOverlay({
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/60 via-black/35 to-black/80" />
       <div className="px-6 text-center text-white">
         <p className="text-[0.7rem] font-medium uppercase tracking-[0.45em] text-white/70">
-          Kelvin &amp; Shelsea
+          Kevin &amp; Shelsea
         </p>
         <h1 className="mt-6 font-serif text-6xl font-light leading-none tracking-tight text-white sm:text-8xl md:text-9xl">
-          Kelvin
+          Kevin
           <span className="mx-3 align-middle font-serif text-4xl italic text-white/70 sm:text-6xl">
             &amp;
           </span>
@@ -223,7 +223,7 @@ function MusicButton({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kevin & Shelsea — Casamento 12.12.2026" },
+      { title: "Kevin & Shelsea — Casamento 12.09.2025" },
       {
         name: "description",
         content:
@@ -292,7 +292,7 @@ function Index() {
   };
 
   const message =
-    `Confirmação de presença — Casamento Kelvin & Shelsea\n\n` +
+    `Confirmação de presença — Casamento Kevin & Shelsea\n\n` +
     `Nome: ${name.trim() || "—"}\n` +
     `Presença: ${attending === "sim" ? "Sim, estarei lá" : attending === "nao" ? "Infelizmente não poderei ir" : "—"}\n` +
     (attending === "sim" ? `Nº de convidados: ${guests}\n` : "");
@@ -346,7 +346,7 @@ function Index() {
       <header className="relative isolate min-h-[92vh] w-full overflow-hidden">
         <img
           src={casal1.url}
-          alt="Kelvin Cossa e Shelsea Paruque, os noivos, num jardim"
+          alt="Kevin Cossa e Shelsea Paruque, os noivos, num jardim"
           className="animate-soft-zoom absolute inset-0 -z-20 h-full w-full object-cover object-[50%_35%]"
         />
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/60 via-black/35 to-black/80" />
@@ -361,27 +361,14 @@ function Index() {
               &
             </span>
             
-          </h1>
-          <p className="mt-5 text-[0.65rem] uppercase tracking-[0.4em] text-white/60">
-            Kevin Cossa &nbsp;·&nbsp; Shelsea Paruque
-          </p>
-          </Reveal>
-          <Reveal delay={400}>
-          <div className="mt-10 h-px w-24 bg-white/40" />
-          <p className="mt-8 text-lg font-light uppercase tracking-[0.3em] text-white/90 sm:text-xl">
-            12 · 09 · 2025
-          </p>
-          <p className="mt-3 text-sm uppercase tracking-[0.3em] text-white/70">
-            Maputo · Moçambique
-          </p>
-          </Reveal>
-          <Reveal delay={600}>
-          <a
-            href="#rsvp"
-            className="animate-float-slow mt-14 inline-flex items-center justify-center rounded-full border border-white/60 px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:scale-105 hover:bg-white hover:text-black"
-          >
-            Confirmar presença
-          </a>
+<Reveal delay={600}>
+  <a
+    href="#rsvp"
+    className="animate-float-slow mt-14 inline-flex items-center justify-center rounded-full border border-white/60 px-8 py-3 text-xs font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:scale-105 hover:bg-white hover:text-black"
+  >
+    Confirmar presença
+  </a>
+</Reveal>
           </Reveal>
         </div>
       </header>
@@ -437,7 +424,7 @@ function Index() {
               Começou sem aviso: uma conversa que se estendeu para além do
               tempo, risos que ficaram e a sensação rara de já se conhecerem há
               muito. Entre planos partilhados e dias comuns tornados especiais,
-              Kelvin e Shelsea perceberam que caminhavam na mesma direção.
+              Kevin e Shelsea perceberam que caminhavam na mesma direção.
             </p>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
               Agora, rodeados de quem amam, escolhem dizer «sim» diante de Deus
