@@ -7,7 +7,7 @@ import casal4 from "../assets/casal-4.jpg.asset.json";
 
 const WHATSAPP = "258849889889";
 const WEDDING_DATE = new Date("2026-12-12T10:00:00");
-const GREETINGS_KEY = "kelvin-shelsea-felicitacoes";
+const GREETINGS_KEY = "kevin-shelsea-felicitacoes";
 
 const GALLERY = [
   { url: casal3.url, alt: "Kelvin ergue Shelsea num jardim, em ensaio pré-casamento" },
@@ -163,7 +163,7 @@ function IntroOverlay({
           Shelsea
         </h1>
         <p className="mt-5 text-lg font-light uppercase tracking-[0.3em] text-white/90 sm:text-xl">
-          12 · 12 · 2026
+          12 · 09 · 2025
         </p>
         <button
           type="button"
@@ -223,17 +223,17 @@ function MusicButton({
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kelvin & Shelsea — Casamento 12.12.2026" },
+      { title: "Kevin & Shelsea — Casamento 12.12.2026" },
       {
         name: "description",
         content:
-          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de dezembro de 2026, em Maputo. Programa do dia e confirmação de presença.",
+          "Convite para o casamento de Kevin Cossa e Shelsea Paruque, dia 12 de Setembro de 2025, em Maputo. Programa do dia e confirmação de presença.",
       },
-      { property: "og:title", content: "Kelvin & Shelsea — Casamento 12.12.2027" },
+      { property: "og:title", content: "Kevin & Shelsea — Casamento 12.09.2025" },
       {
         property: "og:description",
         content:
-          "Convite para o casamento de Kelvin Cossa e Shelsea Paruque, dia 12 de dezembro de 2026, em Maputo.",
+          "Convite para o casamento de Kevin Cossa e Shelsea Paruque, dia 12 de Setembro de 2025, em Maputo.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -283,7 +283,7 @@ function Index() {
     }
     window.open(
       `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
-        `Felicitações aos noivos Kelvin & Shelsea\n\nDe: ${entry.name}\n"${entry.message}"`,
+        `Felicitações aos noivos Kevin & Shelsea\n\nDe: ${entry.name}\n"${entry.message}"`,
       )}`,
       "_blank",
     );
@@ -357,22 +357,19 @@ function Index() {
             Com alegria, convidamos você
           </p>
           </Reveal>
-          <Reveal delay={200}>
-          <h1 className="mt-8 font-serif text-6xl font-light leading-none tracking-tight text-white sm:text-8xl md:text-9xl">
-            Kelvin
             <span className="mx-3 align-middle font-serif text-4xl italic text-white/70 sm:text-6xl">
               &
             </span>
-            Shelsea
+            
           </h1>
           <p className="mt-5 text-[0.65rem] uppercase tracking-[0.4em] text-white/60">
-            Kelvin Cossa &nbsp;·&nbsp; Shelsea Paruque
+            Kevin Cossa &nbsp;·&nbsp; Shelsea Paruque
           </p>
           </Reveal>
           <Reveal delay={400}>
           <div className="mt-10 h-px w-24 bg-white/40" />
           <p className="mt-8 text-lg font-light uppercase tracking-[0.3em] text-white/90 sm:text-xl">
-            12 · 12 · 2026
+            12 · 09 · 2025
           </p>
           <p className="mt-3 text-sm uppercase tracking-[0.3em] text-white/70">
             Maputo · Moçambique
@@ -579,7 +576,7 @@ function Index() {
             RSVP
           </h2>
           <p className="mt-5 text-muted-foreground">
-            Confirme até <strong className="text-foreground">05 de dezembro de 2026</strong> por
+            Confirme até <strong className="text-foreground">05 de Setembro de 2025</strong> por
             WhatsApp.
           </p>
         </div>
@@ -679,7 +676,7 @@ function Index() {
               Felicitações aos noivos
             </h2>
             <p className="mt-5 text-muted-foreground">
-              Deixe uma mensagem para Kelvin &amp; Shelsea — ela será enviada para os
+              Deixe uma mensagem para Kevin &amp; Shelsea — ela será enviada para os
               noivos e ficará guardada aqui no mural.
             </p>
           </Reveal>
@@ -746,10 +743,10 @@ function Index() {
       <footer className="border-t border-border px-6 py-16">
         <div className="mx-auto max-w-4xl text-center">
           <p className="animate-heart-beat inline-block font-serif text-3xl font-light text-foreground">
-            Kelvin &amp; Shelsea
+            Kevin &amp; Shelsea
           </p>
           <p className="mt-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            12 · 12 · 2026 — Maputo
+            12 · 09 · 2025 — Maputo
           </p>
           <p className="mt-6 text-xs text-muted-foreground">Contamos com a sua presença.</p>
 
@@ -866,7 +863,7 @@ function StoryGallery() {
         ))}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
         <p className="absolute inset-x-0 bottom-10 text-center font-serif text-2xl font-light italic text-white/95">
-          Kelvin &amp; Shelsea
+          Kevin &amp; Shelsea
         </p>
         <div className="absolute inset-x-0 bottom-5 flex items-center justify-center gap-2">
           {GALLERY.map((img, i) => (
