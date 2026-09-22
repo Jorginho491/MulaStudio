@@ -369,7 +369,6 @@ function Index() {
     Confirmar presença
   </a>
 </Reveal>
-          </Reveal>
         </div>
       </header>
 
