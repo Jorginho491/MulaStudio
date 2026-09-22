@@ -471,7 +471,7 @@ function Index() {
             Programa do dia
           </h2>
           <div className="mt-10 grid gap-8 sm:grid-cols-3">
-            <DetailCard label="Data" value="12 · 12 · 2026" sub="Domingo" />
+            <DetailCard label="Data" value="12 · 09 · 2025" sub="Sabado" />
             <DetailCard label="Início" value="10:00" sub="Cerimónia Religiosa" />
             <DetailCard label="Cidade" value="Maputo" sub="Moçambique" />
           </div>
